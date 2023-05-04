@@ -28,6 +28,7 @@ spring:
 crud:
   rabbitmq:
     exchange: crud.exchange
+    routingkey: crud.produto.routingkey
     queue: crud.produto.queue
 
 security:
